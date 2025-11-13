@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+roboflow
+pillow
+python-dotenv
+pandas
+numpy
