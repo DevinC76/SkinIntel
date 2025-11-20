@@ -218,3 +218,9 @@ __marimo__/
 backend
 patches
 .env
+
+# CSV data files (now using Supabase)
+*.csv
+!.env.example
+
+supabase_schema.sql
