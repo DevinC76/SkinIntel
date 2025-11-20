@@ -1,0 +1,50 @@
+/* /src/pages/Routine.css */
+
+/* ------------------------------ */
+/* MAIN CONTAINER                 */
+/* ------------------------------ */
+.routine-container {
+  width: 320px;
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  position: relative;
+  left: 20px;
+  margin-top: 20px;
+
+  color: #f4f4f4;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------------------ */
+/* ROUTINE SECTIONS               */
+/* ------------------------------ */
+.routine-section {
+  margin-top: 15px;
+}
+
+/* ------------------------------ */
+/* INDIVIDUAL PERIODS             */
+/* ------------------------------ */
+.routine-period {
+  margin-bottom: 20px;
+}
+
+.routine-period h3 {
+  margin-bottom: 8px;
+  color: #00aaff;
+}
+
+.routine-period ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.routine-period li {
+  margin-bottom: 6px;
+  padding: 6px 10px;
+  background-color: #3a3a3a;
+  border-radius: 8px;
+}

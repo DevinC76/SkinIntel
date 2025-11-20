@@ -1,0 +1,30 @@
+.confidence-calendar {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  justify-items: center;
+  margin-top: 15px;
+}
+
+.calendar-day {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.calendar-day:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 5px rgba(110, 207, 251, 0.7);
+}
+

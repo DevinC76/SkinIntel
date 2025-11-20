@@ -1,0 +1,17 @@
+.routine-layout {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.routine-layout > .routine-container {
+  flex: 0 0 320px;
+}
+
+.confidence-calendar-wrapper {
+  width: 200px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+}
