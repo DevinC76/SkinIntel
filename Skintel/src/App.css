@@ -1,17 +1,36 @@
-.routine-layout {
+.main-flex {
   display: flex;
-  justify-content: flex-start;
+  gap: 20px;                  /* space between Routine and Calendar */
   align-items: flex-start;
-  gap: 40px;
+  justify-content: flex-start; /* align to the left */
+  flex-wrap: wrap;            /* allow wrapping on smaller screens */
+  padding: 20px;              /* optional spacing from edges */
+  box-sizing: border-box;
 }
 
-.routine-layout > .routine-container {
-  flex: 0 0 320px;
+/* Routine container */
+.routine-container {
+  flex: 1 1 300px;            /* grow/shrink, min 300px */
+  max-width: 400px;           /* optional max width */
+  padding: 20px;
+  background-color: #2e2e2e;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: #f4f4f4;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
-.confidence-calendar-wrapper {
-  width: 200px;
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 40px;
+/* Calendar container */
+.confidence-calendar {
+  flex: 2 1 300px;            /* grow twice as fast as Routine, min 300px */
+  max-width: 600px;           /* optional max width */
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: #fff;
+  background-color: #2e2e2e;
+  padding: 20px;
+  border-radius: 12px;
+  box-sizing: border-box;
 }

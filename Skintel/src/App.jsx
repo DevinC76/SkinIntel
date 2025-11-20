@@ -8,11 +8,9 @@ import Routine from "./pages/Routine";
 import ConfidenceCalendar from "./pages/ConfidenceCalendar";
 
 const Main = () => (
-  <div className="routine-layout">
+  <div className="main-flex">
     <Routine />
-    <div className="confidence-calendar-wrapper">
-      <ConfidenceCalendar />
-    </div>
+    <ConfidenceCalendar />
   </div>
 );
 
