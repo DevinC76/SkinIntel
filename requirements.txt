@@ -1,7 +1,10 @@
 fastapi
-uvicorn
+uvicorn[standard]
 roboflow
 pillow
 python-dotenv
 pandas
 numpy
+supabase
+slowapi
+python-multipart

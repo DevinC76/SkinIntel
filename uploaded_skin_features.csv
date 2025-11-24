@@ -1,2 +1,0 @@
-ID,filename,acne_count,avg_acne_width,avg_acne_height,avg_acne_area,papules_count,pustules_count,comedone_count,nodules_count,avg_redness,global_redness,skin_disease_label,skin_disease_confidence,skin_classification_labels,acne_detected,result
-1,Acne.jpg,5,75.0,75.2,6631.4,0.2309931659075112,1,0,3,1,0.1957364910130719,Viral infections,0.7669,NULL,1,NaN
